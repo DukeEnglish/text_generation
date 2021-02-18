@@ -53,4 +53,4 @@ def predict(vocab_size, char2idx, idx2char):
     model.load_weights(tf.train.latest_checkpoint(checkpoint_dir))
 
     model.build(tf.TensorShape([1, None]))
-    print(generate_text(model, start_string='星 '))
+    print(generate_text(model, start_string='牛 '))

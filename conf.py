@@ -9,7 +9,7 @@
 # -----------------------------------------------------------------------#
 import os
 
-path_to_file = '/Users/ljy/nlp/text_generator/couplet/train/in.txt'
+path_to_file = 'data/couplet/train/in.txt'
 BATCH_SIZE = 16
 
 # 设定缓冲区大小，以重新排列数据集合
